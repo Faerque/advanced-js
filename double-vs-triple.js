@@ -1,7 +1,7 @@
 const first = 0;
 const second = false;
 
-if(first == second){
+if('2' == 2){
     console.log("condition is real");
 }
 else{
