@@ -1,6 +1,17 @@
-const name = "Suleiman Khan";
+// Falsy:
+// 0
+// "";
+// undefined 
+//null
+// NaN
+// false
 
-if(name.length > 0){
+// Truthy:
+// '0' ' ' []
+
+let name = 12;
+
+if(name || name == 0 ){
     console.log("condition is true");
 }
 else{
